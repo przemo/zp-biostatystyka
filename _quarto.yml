@@ -1,0 +1,24 @@
+project:
+  type: book
+  output-dir: docs
+lang: pl
+book:
+  title: "ZP:BIO"
+  author: "Przemek Jura"
+  date: "9/27/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: yeti
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
