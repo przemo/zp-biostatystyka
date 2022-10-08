@@ -1,6 +1,6 @@
-# Summary
+# Podsumowanie
 
-In summary, this book has no content whatsoever.
+Test renderowanie kodu R.
 
 ```{r}
 1 + 1

@@ -3,15 +3,15 @@
 
 `R` to program statystyczny i jednocześnie język programowania wykorzystywany do
 przetwarzania danych oraz przeprowadzania analiz statystycznych. `R` jest 
-dostępny nieodpłatnie ze strony [https://cran.r-project.org](projektu CRAN R). Sam program 
+dostępny nieodpłatnie ze strony [projektu CRAN R](https://cran.r-project.org). Sam program 
 to nie wszystko. Sukces `R` i jego rosnąca popularność, nie tylko w środowisku 
 naukowym, nie byłaby możliwa dzięki rzeszy entuzjastów tworzących dodatkowe 
 pakiety rozszerzające jego funkcjonalność.  W środowisku użytkowników `R` pakiety te nazywane są często
-_bibliotekami_ (_ang. libraries_). Tutaj dowiesz się, które biblioteki są obecnie popularne 
+_bibliotekami_ (ang. _libraries_). Tutaj dowiesz się, które biblioteki są obecnie popularne 
 w przeprowadzaniu analizy, które ułatwiają tworzenie tabel oraz raportów i mają
 praktyczne zastosowanie w dziedzinie zdrowia publicznego lub epidemiologii. 
 `R` nie posiada rozbudowanego graficznego interfejsu jaki możemy spotkać 
-w pakietach Statistica, SPSS, czy SAS Enterprise Guide. Praca w `R` opiera się głównie 
+w pakietach _Statistica, SPSS, czy SAS Enterprise Guide_. Praca w `R` opiera się głównie 
 na wpisywaniu sekwencji poleceń bezpośrednio w konsoli `R` lub zapisaniu ich w pliku tekstowym,
 który następnie jest odczytywany i wykonywany. To jest często bariera, która może 
 odstraszyć początkujących użytkowników i jest mniej przyjazna jak interfejs, gdzie przy
@@ -26,19 +26,18 @@ jeszcze raz i odczytać nowe wyniki analizy.
 
 Oczywiście nie jest możliwe zapamiętanie wszystkich poleceń i komend, które `R` może dla nas
 wykonać. Z resztą nie ma to nawet sensu. Aby ułatwić sobie proces pisania programu 
-z pomocą przychodzą _środowiska programowania_ -- IDE (ang. Integrated Development Environment).
+z pomocą przychodzą _środowiska programowania_ -- IDE (ang. _Integrated Development Environment_).
 Jest to dodatkowy program (nakładka), który w znacznym stopniu ułatwia pisanie kodu oferując _podpowiedzi_ 
 lub nawet gotowe szablony poleceń, które możemy edytować i poźniej wysłać `R` do wykonania. 
 
 
-Aktualnie, najpopularniejszym środowiskiem programowania (IDE) w języku R - jest [https://www.rstudio.com](R-Studio)
+Aktualnie, najpopularniejszym środowiskiem programowania (IDE) w języku R - jest [R-Studio](https://www.rstudio.com)
  (niebawem przemianowane na _Posit_). W najprostszej wersji R-Studio jest dostępne nieodpłatnie. 
  Dodatkowo, R-Studio ułatwi nam: zainstalowanie niezbędnych bibliotek, tworzenie projektów analizy danych,
   tworzenie raportów lub wirtualnych notatników, prezentacji i nawet stron www. 
  
  W duchu otwartości przeprowadzania analizy danych oraz dostępu do danych, szczególnie 
- w środowisku akademickim (ang. Research Reproducibility)
-[https://www.nature.com/articles/d42473-019-00004-y] warto jest wykorzystać narzędzia 
+ w środowisku akademickim (ang. [Research Reproducibility](https://www.nature.com/articles/d42473-019-00004-y)) warto jest wykorzystać narzędzia 
 oferowane przez R-Studio jak wirtualne notatniki lub szablony raportów. 
 W dużym stopniu jest to ułatwienie procesu dokumentacji pracy z danymi, przeprowadzonych analiz i 
 otrzymanych rezultatów. W odpowiednio skomponowanym pliku tekstowym, możemy zapisać 
@@ -46,7 +45,7 @@ program w języku R, a ponadto nasze komentarze do analizy czy nawet same wyniki
 Taki plik, można w prosty sposób zapisać jako strona www lub jako plik Word lub PDF, który może śmiało 
 posłużyć jako finalny raport analizy. 
 
-W tym celu gorąco polecam program _Quarto_ [www.quarto.org], który w znacznym stopniu rozszerza 
+W tym celu gorąco polecam program [**Quarto**](www.quarto.org), który w znacznym stopniu rozszerza 
 funkcjonalność R-Studio w zakresie tworzenie szablonów do dokumentowania pracy  z danymi. 
 Niniejsza strona właśnie powstaje na bazie Quarto i jest w całości napisana w R-Studio.
 
@@ -56,18 +55,9 @@ Niniejsza strona właśnie powstaje na bazie Quarto i jest w całości napisana 
  - R-Studio jako środowisko programistyczne
  - Quarto (opcjonalnie, ale gorąco polecam).
  
- 
- 
-`This is a book created from markdown and executable code.
 
-See @knuth84 for additional discussion of literate programming.`R
-
-```{r}
-1 + 1
-```
 
 ## Instalacja programów 
-
 
 ## Interfejs R-Studio
 
