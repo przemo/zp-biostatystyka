@@ -59,7 +59,41 @@ Niniejsza strona właśnie powstaje na bazie Quarto i jest w całości napisana 
 
 ## Instalacja programów 
 
+Pniżej wymienionione są adresy skąd można pobrać oprogramowanie:
+
+- CRAN R
+- R Studio
+- Quarto
+
+Instalację zaczynamy od pakietu R. W przypadku systemu operacyjnego Windows 
+można urzyć instalatora, który przeprowadzi nas przez proces instalacji. Generalnie
+możemy zminimalizować swój wysiłek do klikania _OK_ lub _DALEJ_. 
+
+Gdy instalacja jest zakończona w menuu _Start_ Windows powinny znajdować się 
+pozycje wskazane na ilustracji.
+Ograniczamy się wyłącznie do uruchimienia R-Studio, który uruchomi jednocześnie nową 
+sesję R i Quarto, gdy będzie to wymagane.  Nie ma potrzeby uruchamiania tych aplikacji osobno - to jest 
+właśnie urok korzystania z oprogramowania IDE, jak R-Studio. POtrzebujemy 
+tylko wybrane składniki, aby wszystko ze sobą współpracowało. 
+
+TODO: Ilustracja Menu Start.
+
 ## Interfejs R-Studio
+
+Gdy otworzymy R-Studio, mamy przed sobą okno, w którym znajdują się 4 obszary:
+
+- Do edycji kodu (lewa górna część)::
+    gdy tworzymy pierwszy plik z kodem właśnie tam dokonujemy edycji i piszemy program w języku R (ponadto R-  Studio wspiera między innymi język _Python_ czy _SQL_)
+- Nawigator środowiska R  (prawa górna część)::
+    w tym miejscu znajdziemy wszystkie aktualnie używane dane, wektory danych, tablice lub tabele danych. W przypadku utworzenia projektu z kontrolą wersji (GIT) pojawią się dodatkowe zakładki umożliwiające wykorzystanie funkcji oferowanych przez GIT.
+- Konsola R / Terminal ::
+W konsoli wykonywane są wszystkie polecenia. Tutaj użytkownik ma bezpośredni dostęp do programu R. Gdy zaznaczymy fragment kodu w oknie powyżej i wciśniemy kombinację klawiszy CTRL + Enter kod zostanie wysłany do konsoli i wykonany przez R. które są zawarte w pliku edytowanym u góry (obszar edycji kodu). Pondadto obecnie R uożliwia dostęp  do terminala systemu, gdzie można dokonywać operacji na plikach z poziomu systemu operacyjnego (wielbiciele DOS docenią tę funkcjonalność), oraz można śledzić proces _kompilacji_ raportów  lub innych plików wyjściowych z wynikami analizy, którą przeprowadzamy
+3i możemy zobaczyć wyniki analizy lub komunikaty, które R wysyła do nas. 
+- Części nawigacyjnej środowiska  - gdzie widzimy wszystkie obiekty w środowisku R - wektory danych, tabele danych, itp. Wszystkie te elementy są omówione w dalszych sekcjach książki.
+- Części nawigacyjnej systemu plików, gdzie możemy zobaczyć wszystkie pliki lub katalogi projektu zapisane na dysku, ponadto możemy zobaczyć wykresu, które są wygenerowane podczas analizy, oraz mamy dostęp do dokumentacji pakietu R lub _bibliotek_, które aktualnie wykorzystujemy. W tym właśnie miejscu znajdziemy jakie są dostępne funkcje potrzebne do analizy danych oraz jakie parametry, musimy podać aby funkcje poprawnie wykonały porządane zadanie.
+
+   
+
 
 ## Podstawy języka R
 
